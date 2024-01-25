@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            display: flex;
+            background-color: rgb(166, 228, 217);
+            width: 100vw;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 400px;
+            height: 600px;
+            background-color: white;
+            border-radius: 20px;
+            text-align: center;
+        }
+        button{
+            width: 70%;
+            height: 9%;
+            background-color: rgb(4, 4, 110);
+            color: aliceblue;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgb(53, 53, 66);
+        }
+        .card > img{
+            border-radius: 20px 20px 0px 0px;
+        }
+        .inbtn{
+            display: flex;
+            flex-direction: row;
+            width: 90%;height: 10%;
+            border-radius: 10px;
+            background-color: antiquewhite;
+        }
+        .leftside{
+            display: flex;
+            width: 40%;
+            justify-content: space-between;
+            align-items: center; border-radius: 10px;
+            background-color: antiquewhite;
+        }
+        .rightside{
+            width: 60%;
+            background-color: antiquewhite; border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            padding: 10px;
+        }
+        .leftside> img{
+            height: 90%;
+            width: 20%;
+            margin: 10px;
+        }
+        .card > p{
+            padding-inline: 15px;
+        }
+        .card > a{
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="iamge 2.png" alt="card2" width="100%" height="33%">
+            <h2>Order Summary</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, magnam ut repellendus unde neque iure explicabo? Pariatur asperiores nostrum non?</p>
+            <div class="inbtn">
+                <dvi class="leftside">
+                    <img src="spotify-logo-png-7057.png" alt="icon">
+                    <p>Annual Plan <br> $99.9/year</p>
+                </dvi>
+                <div class="rightside">
+                    <a href="">Change plan</a>
+                </div>
+            </div>
+            <button>Procces to payment</button>
+                <a href="">Cancel Order</a>
+        </div>
+    </div>
+</body>
+</html>
